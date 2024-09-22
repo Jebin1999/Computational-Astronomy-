@@ -16,7 +16,7 @@ You can install the required packages by running:
 ```bash
 pip install matplotlib astropy astroquery numpy
 
-Scripts Overview
+# Scripts Overview
 
 1. Radio Image Query and Visualization: M51 Galaxy
 This script retrieves and visualizes a radio image of the M51 Galaxy using the TESS telescope data.
@@ -33,7 +33,7 @@ Copy code
 python m51_radio_image.py
 Sample Output
 
-The output includes:
+# The output includes:
 
 A grayscale image of the M51 Galaxy.
 WCS grid and axes labeled with RA (Right Ascension) and Dec (Declination).
@@ -46,21 +46,21 @@ Extracts and displays a radio image with a prism colormap.
 Performs flux calculation within a circular region of interest on the image.
 Usage
 
-To run the script:
+# To run the script:
 
 bash
 Copy code
 python radio_flux_analysis.py
 Sample Output
 
-The output includes:
+# The output includes:
 
 A colorful radio image using a prism colormap.
 A WCS grid with labeled axes for Right Ascension and Declination.
 The calculated total flux density in Jy (Jansky) within a circular region.
-How to Use
+# How to Use
 
-Clone the repository:
+#Clone the repository:
 bash
 Copy code
 git clone https://github.com/yourusername/radio-astro-image-analysis.git
@@ -70,13 +70,14 @@ bash
 Copy code
 pip install -r requirements.txt
 Run any of the provided scripts using Python.
-Contact
 
-For any questions or issues, feel free to contact Jebin Larosh at your.email@example.com.
+#Contact
+
+For any questions or issues, feel free to contact Jebin Larosh at jebin.jervis2@mail.dcu.ie
 
 License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the MIT License. 
 
 bash
 Copy code
